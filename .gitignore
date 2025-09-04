@@ -1,0 +1,78 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Environment & secrets
+*.env
+.envrc
+*.key
+*.pem
+*.crt
+*.token
+*.secrets
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Byte-compiled / cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+.cache/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter / notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# --- FastAPI / Uvicorn ---
+# Uvicorn reload artifacts
+*.reload
+
+# --- Docker ---
+*.pid
+*.tar
+*.img
+*.gz
+*.swp
+.dockerignore
+docker-compose.override.yml
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+.DS_Store
+
+# --- Build / Dist ---
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+*.tar.gz
+pip-wheel-metadata/
